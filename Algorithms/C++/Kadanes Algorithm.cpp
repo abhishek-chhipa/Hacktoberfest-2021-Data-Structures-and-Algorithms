@@ -22,7 +22,7 @@ int main() {
 			CS+=A[i];
 			if(CS<0)
 				CS=0;
-			MS=max(CS,MS);
+			MS=max(CS,MS); //
 		}
 		cout<<MS<<endl;
 	}
